@@ -13,6 +13,7 @@
 		04C579BD1D00583000CA6779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C579BB1D00583000CA6779 /* Main.storyboard */; };
 		04C579BF1D00583000CA6779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C579BE1D00583000CA6779 /* Assets.xcassets */; };
 		04C579C21D00583000CA6779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C579C01D00583000CA6779 /* LaunchScreen.storyboard */; };
+		04C579CB1D005C6600CA6779 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C579CA1D005C6600CA6779 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04C579BE1D00583000CA6779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C579C11D00583000CA6779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C579C31D00583000CA6779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C579C91D005C6600CA6779 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		04C579CA1D005C6600CA6779 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				04C579C01D00583000CA6779 /* LaunchScreen.storyboard */,
 				04C579C31D00583000CA6779 /* Info.plist */,
 				04C579B21D00583000CA6779 /* Supporting Files */,
+				04C579C91D005C6600CA6779 /* CustomView.h */,
+				04C579CA1D005C6600CA6779 /* CustomView.m */,
 			);
 			path = CJMap;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C579BA1D00583000CA6779 /* ViewController.m in Sources */,
+				04C579CB1D005C6600CA6779 /* CustomView.m in Sources */,
 				04C579B71D00583000CA6779 /* AppDelegate.m in Sources */,
 				04C579B41D00583000CA6779 /* main.m in Sources */,
 			);
